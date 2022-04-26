@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="Alfajri Arraihan">
+        <link rel="icon" href="../../favicon.ico">
+
+        <title>Whereapps</title>
+
+        <link href="css/font-awesome.css" rel="stylesheet"/>
+        
+        <style>
+             @font-face {
+                font-family: 'NotoSans';
+                src: url(fonts/notosans.ttf);
+            }
+            *{
+                font-family: NotoSans;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .button:hover{
+                opacity: 80%;
+            }
+
+            .social{
+                width:100%;
+                display:flex;
+                justify-content: center;
+                text-decoration: none;
+            }
+            .social li{
+                display:inline-block;
+                text-decoration: none;     
+                border-radius:50%;
+                background-color: rgb(66, 66, 66);
+                margin-right:12px;
+            }
+            .social li a span {
+                border:0px;
+                color: rgb(177, 177, 177);
+                padding: 15px 16px;
+            }
+            .social li a span:hover{
+                color:white;
+            }
+            .social li:hover{
+                background-color:rgb(26, 236, 96);
+            }
+
+            @media (max-width:1133px){
+            .container{
+                display:block;
+                width:100%;
+                height:100%;
+            }
+
+            .content{
+                padding:24px;
+                margin: auto;
+                width:100%;
+                text-align: center;
+            }
+            .content h1 {
+                font-size: 28px;
+                margin: 24px 0 16px 0;
+            }
+            .content p {
+                font-size: 14px;
+                color: rgb(170, 170, 170);
+                margin-bottom: 24px;
+            }
+
+            .button{
+                font-size:12px;
+                border:0px;
+                border-radius:12px;
+                display:inline-block;
+                padding: 16px 24px;
+                background-color:rgb(26, 236, 96);
+                color: white;
+                margin-bottom:24px;
+            }
+
+            .social{
+                margin-bottom: 24px;
+            }
+
+            .attribute{
+                display:none;
+            }
+            .device{
+                margin: auto;
+                overflow:hidden;
+                border-radius: 12px;
+                border:1px solid black;
+                width:356px;
+                height:612px;
+            }
+            .device iframe{
+                border-radius: 12px;
+                border:0px;
+                width:100%;
+                height:100%;
+            }
+            }
+
+
+            @media (min-width:1133px){
+            .container{
+                width:100%;
+                height:100%;
+                display:flex;
+                justify-content: center;
+            }
+            .content{
+                margin:auto;
+                display:inline-block;
+                width:50%;
+                height:50%;
+                text-align: center;
+                position:relative;
+
+            }
+            .content h1 {
+                font-size: 48px;
+                margin-bottom:16px;
+            }
+            .content p {
+                font-size: 24px;
+                color: rgb(170, 170, 170);
+                margin-bottom: 64px;
+            }
+
+            .button{
+                font-size:18px;
+                border:0px;
+                border-radius:12px;
+                display:inline-block;
+                padding: 16px 24px;
+                background-color:rgb(26, 236, 96);
+                color: white;
+                margin-bottom:64px;
+            }
+
+            .attribute{
+                display:block;
+                color:gray;
+                text-align: center;
+                width:50%;
+                margin:auto;
+                bottom:0;
+                position:fixed;
+                font-size:18px;
+                margin-bottom: 16px;
+            }
+            
+            .device{
+                display: inline-block;
+                margin:16px;
+                overflow:hidden;
+                position:relative;
+                border-radius: 12px;
+                border:1px solid black;
+                width:412px;
+                height:684px;
+            }
+            .device iframe{
+                border-radius: 12px;
+                border:0px;
+                width:100%;
+                height:100%;
+            }
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <h1>Whereapps Web Design</h1>
+                <p>Responsive mobile design app looks like Whatsapp! build in AngularJS and Jquery<br/>
+                   
+                   Please support me on Github! for this Project.</p>
+
+                <button class="button" style="background-color:rgb(77, 77, 77); margin-right:12px">
+                    <span class="fa fa-github"></span> GITHUB</button>
+                <button class="button">COMING SOON</button>
+
+                <ul class="social">
+                    <li><a target="_blank" href="https://web.facebook.com/alfequneko19"><span class="fa fa-facebook-square"></span></a></li>
+                    <li><a target="_blank" href="https://www.twitter.com/alfequneko19"><span class="fa fa-twitter"></span></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/alfequneko19"><span class="fa fa-instagram"></span></a></li>
+                    <li><a href="#"><span class="fa fa-youtube"></span></a></li>
+                </ul>
+            </div>
+
+            <footer class="attribute">
+                <p>&copy; 2022 Equneko - Allrights Reserved.</p>
+            </footer>
+    
+                <div class="device">
+                    <iframe src="whereapps.html"></iframe>
+                </div>
+        </div>
+
+        
+        
+    </body>
+</html>

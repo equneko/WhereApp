@@ -1,12 +1,12 @@
-# Whereapps
-Responsive mobile web design app looks like Whatsapp! build in AngularJS and Jquery
+# WhereApp
+Responsive mobile web design app looks like Whatsapp! build in AngularJS and Jquery<br/><br/>
 
-#Why Whereapps?
-Simple design build in HTML and CSS which can embedded to WebView on Android
-with Javascript Interface
+#Why WhereApp?<br/>
+Simple design build in HTML and CSS which can embedded to WebView on Android<br/>
+with Javascript Interface<br/><br/>
 
-#Easy and Fast
-No Java Experience! Just HTML, CSS and Javascript Skill
-Make your own chat application!
+#Easy and Fast<br/>
+No Java Experience! Just HTML, CSS and Javascript Skill<br/>
+Make your own chat application!<br/><br/>
 
 Support me on Github!
